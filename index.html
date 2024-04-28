@@ -2,10 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for WDD 131 - Dynamic Web Fundamentals by Shirley Hatch">
+    <meta name="author" content="Shirley Hatch">
+    <title>WDD 131 - Dynamic Web Fundamentals - Shirley Hatch</title>
+    <link href="styles/base.css" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WDD131 Shirley Hatch</h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Shirley Hatch </h1>
+        <nav>
+            <a href="https://www.linkedin.com/">linkedin</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/1?lang=eng">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <div class="cardheader">
+                <h2>About Me</h2>
+            </div>
+            <div id="aboutMe">
+                <p id="meDescription">Hello! My name is Shirley Hatch and I am from Lima, Peru. I am currently living in Arizona. I work as a content creator on 
+                    social media. I love dancing, spending time with my family and my dog. I started Pathway in March last year and it made a huge impact in my 
+                    life specially during hard times. I am studing Software Development and I feel so blessed to be able wake up every morning knowing I am one step closer to my goal of getting a degree. </p>
+                <img src="images/profile.jpg" alt="Shirley Picture">
+            </div>
+            <h2>Lima, Peru</h2>
+            <div id="aboutPeru">
+                <p id="peruHistory">10 interesting facts that Peru is known for. 1. Over 70% of the world’s alpaca population lives in Peru. 2. People live on floating 
+                    islands made of grass. 3. Origin of the potato. 4. Home to one of the Seven Wonders of the World. 5. The ancient art of salt farming. 
+                    6. The Amazon River starts in Peru. 7. Peru is known for its food. 8. Peruvian Ponchos. 9. Peru has rainbow-colored mountains. 
+                    10. Children’s Hunger Fund has partnerships with 44 churches in Peru.</p>
+                <img src="images/peru-flag.webp" alt="Peru Flag">
+            </div>
+        </section>
+        <section class="card">
+            <div class="cardHeader">
+               <h2>Web Dev Resources</h2> 
+            </div>
+            
+            <ul id="wdrList">
+                <li><a href="https://www.codecademy.com/">Code Academy</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://codefinity.com/">Code Definity</a></li>
+                <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <span id="currentYear">©️2024</span> 🇵🇪 Shirley Hatch 🇵🇪 USA
+        </p>
+        <p id="lastModified">Placeholder last modified</p>
+    </footer>
 </body>
 </html>
