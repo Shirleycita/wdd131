@@ -1,8 +1,8 @@
-const currentYear = new Date().getFullYear();
+document.addEventListener("DOMContentLoaded", function() {
 
-
-const lastModifiedDate = document.lastModified;
-
-
-const footerSecondParagraph = document.querySelector('footer p:nth-of-type(2)');
-footerSecondParagraph.textContent = `Last modified: ${lastModifiedDate}`;
+    var currentYear = new Date().getFullYear();
+    document.getElementById("copyright").textContent = currentYear;
+    
+ 
+    var lastModified = new Date(document.lastModified);
+    document.getElementById("lastModified").textContent = lastModified.toLocaleDateString();
