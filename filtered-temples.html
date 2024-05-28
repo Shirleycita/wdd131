@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD131 Temple Album</title>
+        <meta name="description" content="Temple Page with temple pictures that will adjust when using different screen sizes.">
+        <meta name="author" content="Shirley Hatch">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="styles/filtered-temples.css" rel="stylesheet">
+        <link href="styles/filtered-temples-large.css" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <button class="hamburger">&#9776;</button>
+            <a href="#" data-filter="all">Home</a>
+            <a href="#" data-filter="old">Old</a>
+            <a href="#" data-filter="new">New</a>
+            <a href="#" data-filter="large">Large</a>
+            <a href="#" data-filter="small">Small</a>
+        </nav>
+    </header>
+    <main>
+        <h2 id="home">Home</h2>
+        <div id="temple-gallery" class="temple-gallery"></div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span> 🇵🇪 Shirley Hatch 🇵🇪 USA </p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</body>
+</html>
