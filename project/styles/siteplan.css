@@ -25,15 +25,13 @@
     --nav-hover-background-color: #396E94;
   }
   
-  
-  /*  Look around below...but DON'T CHANGE ANYTHING! */
+
   
   body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 4em;
     font-size: 16px;
-    /* Base font size */
     text-align: center;
   }
   
@@ -82,7 +80,6 @@
     color: var(--paragraph-color-on-white);
     padding: 1em;
     font-size: 1rem;
-    /* Equivalent to 16px */
   }
   
   nav {
